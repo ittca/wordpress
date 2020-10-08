@@ -1,0 +1,47 @@
+/*
+Theme Name: tiagos
+Author: Tiago Calado
+Author URI: https://ittca.github.io
+*/
+*{
+  margin: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  background:black;
+}
+a:link, a:visited {
+  color: #005ec3;
+}
+p {
+  line-height: 1.65em;
+}
+/* o layout da página */
+ .layout-corpo, .layout-footer {
+  max-width: 960px;
+  margin: 0 auto;
+}
+/* fim do layout da página */
+.layout-header{
+  background: lightblue;
+}
+.layout-corpo{
+  background:lightyellow;
+}
+.layout-footer{
+  background: lightgreen;
+}
+.tc-corpo{
+  max-width: 960px;
+  margin: 0 auto;
+}
+.tc-header{
+  max-width: 960px;
+  margin: 0 auto;
+}
+.tc-footer{
+  max-width: 960px;
+  margin: 0 auto;
+}
